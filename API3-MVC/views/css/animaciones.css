@@ -1,0 +1,20 @@
+@keyframes sombra {
+    100%{box-shadow: 0px 0px 20px 6px #27272759;}
+}
+@keyframes expandirDetalles {
+    100%{
+        width: 65%;
+    }
+}
+@keyframes contraerDetalles {
+    0%{
+        width: 65%;
+    }
+    50%{
+        width: 0%;
+    }
+    100%{
+        left: 100%;
+    }
+}
+
